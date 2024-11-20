@@ -15,16 +15,26 @@
   margin: 0;
   box-sizing: border-box; */
 /* }ZZZ */
-.intro{
-  padding-inline: 20%;
-  display: flex;
-  font-size: larger;
+.intro {
+  padding: 5%;
+  font-size: 1.2rem; 
   font-weight: 900;
-  border-radius: 40px;
-  margin-top: 40vh;
-
-  /* color: rgba(0, 0, 0, 0,1); */
- 
+  border-radius: 20px; 
+  margin-top: 10vh; 
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+@media (max-width: 768px) {
+  .intro {
+    padding: 10%; 
+    font-size: 1rem; 
+    margin-top: 5vh; 
+  }
 }
 .introtext{
   background-image: url('/wp8106692-cool-2021-wallpapers.jpg');

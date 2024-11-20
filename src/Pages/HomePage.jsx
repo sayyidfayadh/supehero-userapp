@@ -59,11 +59,6 @@ function HomePage() {
       
         </p>
 
-        <div className="d-flex   align-items-center">
-          {" "}
-          <br />
-       
-        </div>
        </div>
          <div className="text-center">
          {/* <img src="./pngwing.com.png" width={"100px"} alt="" /> */}
