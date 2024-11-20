@@ -1,0 +1,62 @@
+.titleone{
+ 
+  font-size:6rem;
+  font-weight: bolder;
+  /* background-image: url('./wp8106692-cool-2021-wallpapers.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.);
+}
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; */
+/* }ZZZ */
+.intro{
+  padding-inline: 20%;
+  display: flex;
+  font-size: larger;
+  font-weight: 900;
+  border-radius: 40px;
+  margin-top: 40vh;
+
+  /* color: rgba(0, 0, 0, 0,1); */
+ 
+}
+.introtext{
+  background-image: url('./wp8106692-cool-2021-wallpapers.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  line-height: 2;
+   background-color: 'rgba(0, 0, 0, 1)';
+   backdrop-filter: blur(2px);
+   -webkit-backdrop-filter: blur(10px);
+  font-weight: bolder;
+  color: black;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(10px);
+}
+@media (max-width: 768px) {
+  .titleone  {
+    font-size: 4rem; 
+
+  }
+  .intro{
+    margin-top: 5vh;
+  }
+}
+
+.batbutton {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 7, 0.5), 0 6px 20px rgba(0, 0,0, 0.7);
+}
+
+.batbutton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.8), 0 8px 24px rgba(255, 193, 7, 0.5);
+}

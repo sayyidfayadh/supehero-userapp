@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  color: #c5c6c7;
+}
+
+.hero {
+  background: url('/image_processing20211110-20868-dbehy0.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.about {
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid silver;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.missions {
+  padding: 2rem;
+}
+
+.missions h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #66fcf1;
+}
+
+.missions ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.missions li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #c5c6c7;
+}
+
