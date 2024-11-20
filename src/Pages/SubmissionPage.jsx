@@ -79,6 +79,13 @@ const getUserSubmissions=async()=>{
           getUserSubmissions()
           setFormHide(true);
           setOpacity((preopacity) => (preopacity === 1 ? 0 : 1));
+          setGrievance({
+            address: "",
+            type: "",
+            message: "",
+            evidence: [],
+          });
+          setPreview([]);
         } else {
           console.error(result.response);
           toast.error("something happened");
@@ -295,7 +302,7 @@ const getUserSubmissions=async()=>{
                       </button>
                     </div>
                     <div className="text-center">
-                      <button className="btn btn-light mt-5" onClick={()=>setFormHide(true)}>
+                      <button className="btn btn-light mt-5" onClick={()=>setFormHide(!formHide)}>
                       Send Another? →
                       </button>
                     </div>
