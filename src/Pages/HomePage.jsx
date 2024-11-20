@@ -35,7 +35,7 @@ function HomePage() {
         className="d-flex intro"
         style={{
           width: "",
-          marginInline:"150px",
+          marginInline:"30px",
           marginTop:"8vw",
           fontFamily: "monospace",
           boxShadow: "1px 1px 5px rgba(0, 0, 0, 0.3)",
