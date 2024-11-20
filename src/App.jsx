@@ -18,7 +18,7 @@ function App() {
      <Route path='/' element={<HomePage/>}></Route>
      <Route path='/about' element= {<AboutPage/>}></Route>
      <Route path='/submission' element={isAuthorized?<SubmissionPage/>:<UserAuth/>}></Route>
-     {/* <Route path='/submission' element={isAuthorized?<SubmissionPage/>:<UserAuth/>}></Route> */}
+     
     </Routes>
     </>
   )
