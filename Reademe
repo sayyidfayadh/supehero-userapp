@@ -1,0 +1,8 @@
+User side app for grievance submission to batman
+Run command----> npm run dev
+Libraries used
+--------------
+-axios for api call
+-reat-bootstrap
+-react-router-dom
+-react-toastify
