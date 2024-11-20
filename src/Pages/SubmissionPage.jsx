@@ -25,10 +25,11 @@ function SubmissionPage() {
     evidence: [],
   });
 
-  console.log(grievance);
+  // console.log(grievance);
 useEffect(()=>{
   getUserSubmissions()
 },[])
+//fetch user grievances
 const getUserSubmissions=async()=>{
   const token=sessionStorage.getItem("token")
   const reqHeader={
@@ -49,6 +50,7 @@ const getUserSubmissions=async()=>{
   const handleClick = () => {
     setOpacity((preopacity) => (preopacity === 1 ? 0 :1));
   };
+  //api for submitting girevances
   const handleSubmit = async () => {
     //api call
     const { type, message, evidence, address } = grievance;
@@ -95,7 +97,7 @@ const getUserSubmissions=async()=>{
       }
     }
   };
-
+//media upload and preview set
   const handleEvidence = (e) => {
     const medias = Array.from(e.target.files);
     setGrievance({
@@ -109,7 +111,7 @@ const getUserSubmissions=async()=>{
     sessionStorage.removeItem("token")
     setIsAuthorized(false)
   }
-
+//mail sending fuc=ntion on user submit
   const handleSendMail = async () => {
   
   const email=sessionStorage.getItem("email")
