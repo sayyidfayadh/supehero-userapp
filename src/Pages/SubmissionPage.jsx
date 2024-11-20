@@ -295,9 +295,9 @@ const getUserSubmissions=async()=>{
                       </button>
                     </div>
                     <div className="text-center">
-                      {/* <button className="btn btn-light mt-5">
-                        To notifications →
-                      </button> */}
+                      <button className="btn btn-light mt-5" onClick={()=>setFormHide(true)}>
+                      Send Another? →
+                      </button>
                     </div>
                   </div>
                 </>
