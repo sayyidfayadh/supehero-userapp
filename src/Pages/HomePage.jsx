@@ -3,9 +3,11 @@
 import React, { useState } from "react";
 import Header from "../Components/Header/Header";
 import "./HomePage.css";
+import Footer from "../Components/Footer/Footer";
 function HomePage() {
 
   return (
+    //background
     <div
       className=""
       style={{
@@ -23,6 +25,7 @@ function HomePage() {
     <source src="Environment-GothamRooftop-ezgif.com-optimize (1).gif" type="video/mp4"/>
     
   </video> */}
+  {/* content */}
 </div>
       <Header />
       <div className="titleone text-center ">
@@ -30,12 +33,13 @@ function HomePage() {
         <img src="./pngwing.com.png"  width={"200px"} alt="" />
        
       </div>
-     
+     {/* intro content */}
       <div 
         className="d-flex intro"
         style={{
           width: "",
           marginInline:"30px",
+          minHeight:"",
           marginTop:"8vw",
           fontFamily: "monospace",
           boxShadow: "1px 1px 5px rgba(0, 0, 0, 0.3)",
@@ -60,10 +64,7 @@ function HomePage() {
         </p>
 
        </div>
-         <div className="text-center">
-         {/* <img src="./pngwing.com.png" width={"100px"} alt="" /> */}
-    
-         </div>
+       <Footer/>
     </div>
   );
 }
